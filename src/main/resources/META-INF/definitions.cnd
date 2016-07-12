@@ -1,0 +1,8 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<mystatic = 'http://cat-amania.fr/jahia/mystatic/1.0'>
+
+[mystatic:moncontenu] > jnt:content, jmix:siteComponent
+
+[mystatic:htmlHolder] > jnt:content, jmix:siteComponent
+- html(weakreference, choicelist[nodes='/sites/html-templates-site/contents/;jnt:html'])
